@@ -35,7 +35,7 @@ const Sidebar = () => {
         <div className={`${!isCollapsed ? 'flex justify-between items-center' : ''}`}>
           <div className={`${!isCollapsed ? ' flex gap-2 text-[#000000] flex justify-start items-center' : ''}`}>
             <div className="relative w-10 h-10 cursor-pointer" onClick={handleSidebar}>
-              <Image src="/assets/logo.png" alt="Logo" width={40} height={40} />
+              <Image src="/assets/Logo.png" alt="Logo" width={40} height={40} />
             </div>
             {!isCollapsed && <h2 className='font-bold text-[#000000]'>Front-Desk</h2>}
           </div>
