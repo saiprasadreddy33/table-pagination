@@ -150,16 +150,7 @@ const DashBoard = () => {
       services: "Private Language Session",
       Scheduled: "Sun, 07 Jan 2024 7:42 PM",
     },
-    {
-      id: 15,
-      createOn: "Tue, 07 Jan 2024 1:36 PM",
-      payer: "Waris leo",
-      status: "Lead",
-      email: "smith@gmail.com",
-      payerPhone: "+91 +346558446722",
-      services: "Boxing Session",
-      Scheduled: "Thu, 04 Jan 2024 2:42 PM",
-    },
+
   ];
 
   const [filteredValue, setFilteredValue] = useState(tableData);
